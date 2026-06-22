@@ -1,30 +1,3 @@
-# Mass Unfollow on Threads.net
-
-## Overview
-
-This is a lightweight and efficient JavaScript browser console script that allows you to mass unfollow accounts on Threads.net with an automated confirmation handler and safety delays to prevent account restrictions.
-
-## Prerequisites
-
-Before using this script, ensure that you have the following:
-
-- **Google Chrome** (or any Chromium-based browser like Brave, Edge, Opera).
-- The language of your Threads interface set to **English** (or Turkish).
-
-## Instructions
-
-1. Open Google Chrome and navigate to the [Threads website](https://www.threads.net).
-2. Log in to your account.
-3. Go to your profile by clicking on your profile picture or username.
-4. Click on the **'Following'** tab to see the list of accounts you are following.
-5. Open the JavaScript Developer Console:
-   - Press `F12` or `Ctrl + Shift + J` (Windows/Linux) 
-   - Press `Cmd + Option + J` (Mac)
-6. Copy the script below, paste it into the console, and press `Enter`.
-
-## The Script
-
-```javascript
 (async () => {
   // 1. Select the "Following" button using the exact class structure
   const targetButtonClass = '.x1i10hfl.xjbqb8w.x1ypdohk.xdl72j9.x2lah0s.x3ct3a4.xdj266r.x14z9mp.xat24cr.x1lziwak.x2lwn1j.xexx8yu.x18d9i69.x1n2onr6.x16tdsg8.x1hl2dhg.xggy1nq.x1ja2u2z.x1t137rt.x1q0g3np.x1lku1pv.x1a2a7pz.x6s0dn4.x16qb05n.xi7iut8.x1dm3dyd.x1pv694p.x9f619.x3nfvp2.x1s688f.x90ne7k.xl56j7k.x193iq5w.xf7dkkf.xv54qhq.x1g2r6go.x12w9bfk.x11xpdln.xz4gly6.x87ps6o.xuxw1ft.x19kf12q.xz6dhga.x79t38.x1qv9dbp.x121z25r.x13fuv20.x18b5jzi.x1q0q8m5.x1t7ytsu.x178xt8z.x1lun4ml.xso031l.xpilrb4.x1r0l4h4.xwsj4vy';
